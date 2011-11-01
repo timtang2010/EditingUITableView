@@ -1,0 +1,9 @@
+build/*
+*.mode1v3
+*.pbxuser
+UnitTestRunner/build/*
+*.xcodeproj/*.xcworkspace/xcuserdata/*
+*.xcodeproj/*.workspace/xcuserdata
+*.xcodeproj/xcuserdata/*
+.DS_Store
+/fTouch.xcodeproj/breeno.perspectivev3

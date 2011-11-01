@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDDDF2BB145FAC570033CEDF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDDDF2BA145FAC570033CEDF /* UIKit.framework */; };
+		FDDDF2BD145FAC570033CEDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDDDF2BC145FAC570033CEDF /* Foundation.framework */; };
+		FDDDF2BF145FAC570033CEDF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDDDF2BE145FAC570033CEDF /* CoreGraphics.framework */; };
+		FDDDF2C5145FAC570033CEDF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDDDF2C3145FAC570033CEDF /* InfoPlist.strings */; };
+		FDDDF2C7145FAC570033CEDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDDF2C6145FAC570033CEDF /* main.m */; };
+		FDDDF2CB145FAC570033CEDF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDDF2CA145FAC570033CEDF /* AppDelegate.m */; };
+		FDDDF2CE145FAC570033CEDF /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDDDF2CC145FAC570033CEDF /* MainStoryboard.storyboard */; };
+		FDDDF2D1145FAC570033CEDF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDDF2D0145FAC570033CEDF /* ViewController.m */; };
+		FDDDF2DA145FACA80033CEDF /* UITableView+TextFieldAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDDF2D9145FACA80033CEDF /* UITableView+TextFieldAdditions.m */; };
+		FDDDF2DD145FACBC0033CEDF /* EditableTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDDF2DC145FACBC0033CEDF /* EditableTableViewCell.m */; };
+		FDDDF2E0145FACDA0033CEDF /* UIView+HierarchyAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDDF2DF145FACDA0033CEDF /* UIView+HierarchyAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FDDDF2B6145FAC570033CEDF /* UITableViewTextFieldAdditionsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITableViewTextFieldAdditionsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDDDF2BA145FAC570033CEDF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FDDDF2BC145FAC570033CEDF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FDDDF2BE145FAC570033CEDF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FDDDF2C2145FAC570033CEDF /* UITableViewTextFieldAdditionsDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewTextFieldAdditionsDemo-Info.plist"; sourceTree = "<group>"; };
+		FDDDF2C4145FAC570033CEDF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FDDDF2C6145FAC570033CEDF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDDDF2C8145FAC570033CEDF /* UITableViewTextFieldAdditionsDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableViewTextFieldAdditionsDemo-Prefix.pch"; sourceTree = "<group>"; };
+		FDDDF2C9145FAC570033CEDF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FDDDF2CA145FAC570033CEDF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FDDDF2CD145FAC570033CEDF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		FDDDF2CF145FAC570033CEDF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FDDDF2D0145FAC570033CEDF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FDDDF2D8145FACA80033CEDF /* UITableView+TextFieldAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+TextFieldAdditions.h"; sourceTree = "<group>"; };
+		FDDDF2D9145FACA80033CEDF /* UITableView+TextFieldAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+TextFieldAdditions.m"; sourceTree = "<group>"; };
+		FDDDF2DB145FACBC0033CEDF /* EditableTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditableTableViewCell.h; sourceTree = "<group>"; };
+		FDDDF2DC145FACBC0033CEDF /* EditableTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditableTableViewCell.m; sourceTree = "<group>"; };
+		FDDDF2DE145FACDA0033CEDF /* UIView+HierarchyAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HierarchyAdditions.h"; sourceTree = "<group>"; };
+		FDDDF2DF145FACDA0033CEDF /* UIView+HierarchyAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HierarchyAdditions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDDDF2B3145FAC570033CEDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDDDF2BB145FAC570033CEDF /* UIKit.framework in Frameworks */,
+				FDDDF2BD145FAC570033CEDF /* Foundation.framework in Frameworks */,
+				FDDDF2BF145FAC570033CEDF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDDDF2AB145FAC570033CEDF = {
+			isa = PBXGroup;
+			children = (
+				FDDDF2C0145FAC570033CEDF /* UITableViewTextFieldAdditionsDemo */,
+				FDDDF2B9145FAC570033CEDF /* Frameworks */,
+				FDDDF2B7145FAC570033CEDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDDDF2B7145FAC570033CEDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDDDF2B6145FAC570033CEDF /* UITableViewTextFieldAdditionsDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDDDF2B9145FAC570033CEDF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDDDF2BA145FAC570033CEDF /* UIKit.framework */,
+				FDDDF2BC145FAC570033CEDF /* Foundation.framework */,
+				FDDDF2BE145FAC570033CEDF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDDDF2C0145FAC570033CEDF /* UITableViewTextFieldAdditionsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FDDDF2D7145FAC630033CEDF /* UITableViewTextFieldAdditions */,
+				FDDDF2C1145FAC570033CEDF /* Supporting Files */,
+			);
+			path = UITableViewTextFieldAdditionsDemo;
+			sourceTree = "<group>";
+		};
+		FDDDF2C1145FAC570033CEDF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDDDF2C9145FAC570033CEDF /* AppDelegate.h */,
+				FDDDF2CA145FAC570033CEDF /* AppDelegate.m */,
+				FDDDF2CC145FAC570033CEDF /* MainStoryboard.storyboard */,
+				FDDDF2CF145FAC570033CEDF /* ViewController.h */,
+				FDDDF2D0145FAC570033CEDF /* ViewController.m */,
+				FDDDF2C2145FAC570033CEDF /* UITableViewTextFieldAdditionsDemo-Info.plist */,
+				FDDDF2C3145FAC570033CEDF /* InfoPlist.strings */,
+				FDDDF2C6145FAC570033CEDF /* main.m */,
+				FDDDF2C8145FAC570033CEDF /* UITableViewTextFieldAdditionsDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDDDF2D7145FAC630033CEDF /* UITableViewTextFieldAdditions */ = {
+			isa = PBXGroup;
+			children = (
+				FDDDF2DE145FACDA0033CEDF /* UIView+HierarchyAdditions.h */,
+				FDDDF2DF145FACDA0033CEDF /* UIView+HierarchyAdditions.m */,
+				FDDDF2DB145FACBC0033CEDF /* EditableTableViewCell.h */,
+				FDDDF2DC145FACBC0033CEDF /* EditableTableViewCell.m */,
+				FDDDF2D8145FACA80033CEDF /* UITableView+TextFieldAdditions.h */,
+				FDDDF2D9145FACA80033CEDF /* UITableView+TextFieldAdditions.m */,
+			);
+			name = UITableViewTextFieldAdditions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDDDF2B5145FAC570033CEDF /* UITableViewTextFieldAdditionsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDDDF2D4145FAC570033CEDF /* Build configuration list for PBXNativeTarget "UITableViewTextFieldAdditionsDemo" */;
+			buildPhases = (
+				FDDDF2B2145FAC570033CEDF /* Sources */,
+				FDDDF2B3145FAC570033CEDF /* Frameworks */,
+				FDDDF2B4145FAC570033CEDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UITableViewTextFieldAdditionsDemo;
+			productName = UITableViewTextFieldAdditionsDemo;
+			productReference = FDDDF2B6145FAC570033CEDF /* UITableViewTextFieldAdditionsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDDDF2AD145FAC570033CEDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = FDDDF2B0145FAC570033CEDF /* Build configuration list for PBXProject "UITableViewTextFieldAdditionsDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FDDDF2AB145FAC570033CEDF;
+			productRefGroup = FDDDF2B7145FAC570033CEDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDDDF2B5145FAC570033CEDF /* UITableViewTextFieldAdditionsDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDDDF2B4145FAC570033CEDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDDDF2C5145FAC570033CEDF /* InfoPlist.strings in Resources */,
+				FDDDF2CE145FAC570033CEDF /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDDDF2B2145FAC570033CEDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDDDF2C7145FAC570033CEDF /* main.m in Sources */,
+				FDDDF2CB145FAC570033CEDF /* AppDelegate.m in Sources */,
+				FDDDF2D1145FAC570033CEDF /* ViewController.m in Sources */,
+				FDDDF2DA145FACA80033CEDF /* UITableView+TextFieldAdditions.m in Sources */,
+				FDDDF2DD145FACBC0033CEDF /* EditableTableViewCell.m in Sources */,
+				FDDDF2E0145FACDA0033CEDF /* UIView+HierarchyAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FDDDF2C3145FAC570033CEDF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDDDF2C4145FAC570033CEDF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FDDDF2CC145FAC570033CEDF /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDDDF2CD145FAC570033CEDF /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDDDF2D2145FAC570033CEDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FDDDF2D3145FAC570033CEDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDDDF2D5145FAC570033CEDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UITableViewTextFieldAdditionsDemo/UITableViewTextFieldAdditionsDemo-Prefix.pch";
+				INFOPLIST_FILE = "UITableViewTextFieldAdditionsDemo/UITableViewTextFieldAdditionsDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FDDDF2D6145FAC570033CEDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UITableViewTextFieldAdditionsDemo/UITableViewTextFieldAdditionsDemo-Prefix.pch";
+				INFOPLIST_FILE = "UITableViewTextFieldAdditionsDemo/UITableViewTextFieldAdditionsDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDDDF2B0145FAC570033CEDF /* Build configuration list for PBXProject "UITableViewTextFieldAdditionsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDDDF2D2145FAC570033CEDF /* Debug */,
+				FDDDF2D3145FAC570033CEDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDDDF2D4145FAC570033CEDF /* Build configuration list for PBXNativeTarget "UITableViewTextFieldAdditionsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDDDF2D5145FAC570033CEDF /* Debug */,
+				FDDDF2D6145FAC570033CEDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDDDF2AD145FAC570033CEDF /* Project object */;
+}
