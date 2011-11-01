@@ -1,5 +1,7 @@
 # EditingUITableView 
 
+![](http://github.com/breeno/EditingUITableView/raw/master/EditingTableView.png)
+
 ## Making UITableView based view controllers that need multiple UITextFields for editing a breeze. 
 
 There are a number of problems working with UITableViews whenever UITextField elements are involved:
@@ -95,7 +97,6 @@ Checkout the sample code for further details.
 ### ARC Support Comments
 
 The code library ASSUMES ARC SUPPORT.
-If you want to use this with pre-ARC code, please run through and add the needed -retain calls to the mapping dictionary ivar.
 
 ## Contact
 
