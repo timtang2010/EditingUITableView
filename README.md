@@ -90,7 +90,7 @@ Checkout the sample code for further details.
 
 ## Dependencies
 
-* [iOS 4.0+]
+* [iOS 5.0+]
 * ARC
 * No other external dependencies.
 
